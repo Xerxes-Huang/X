@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    overflow:auto;
+    font-family: "Microsoft Yahei", sans-serif;
+}
+.page{
+    background-image: url(assets/first/bg3.png);
+    position:relative;background-position: center;
+    background-size: cover;
+    width:100vw;
+    height: 100vh;
+z-index: -1;
+}
+.back{
+    position:absolute;
+    top:4.44vh;
+    left: 1.61vw;
+    background: #f3d299;
+    border-radius: 0.83vw;
+    padding: 0.63vh 2vw 0.63vh 1vw;
+    cursor:pointer;
+    transition: 0.2s;}
+.back:hover{
+        background: #cdc444;
+         transform: scale(1.05);
+    }
+
+.back h1{
+    font-size: 1.88vw;
+    margin-bottom:0.37vh;
+    color:#ffff;
+      text-shadow: 0 0 8px rgba(0,0,0,0.4);
+}
+.list{
+    position: absolute;
+    background-image: url(assets/first/letter.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    left:5vw;top:25vh;
+    padding:21vh 20vw 20vh 22vw;
+    gap:2vw;
+    width:55vw;height:65vh;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+     cursor:pointer;
+    transition: 0.2s;
+}
+.list :hover{ transform: scale(1.05);}
+.list p{
+    font-size: 2vw;
+}
+.word{
+    position: absolute;
+    top:25vh;left:5vw;
+    background: #937070;
+    background-size: cover;
+    background-position: center;
+    width:55vw;height: 17vh;
+    padding: 2vw 18vw;
+}
+.word h2{
+    font-size: 3vw;
+    text-decoration: underline;
+    color: #ffffff;
+}
+.next-page{
+    position: absolute;
+    bottom: 7.41vh;
+    right: 4.16vw;
+    background: #f2d299;
+    border-radius: 0.83vw;
+    cursor: pointer;
+    transition: 0.2s;
+    padding: 0.63vh 2vw 0.63vh 1vw;
+}
+.next-page:hover {
+    background: #cdc444;
+     transform: scale(1.05);
+}
+.next-page h3{
+    font-size: 1.88vw;
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
