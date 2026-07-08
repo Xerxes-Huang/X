@@ -156,6 +156,7 @@ cursor: pointer;
     z-index: 9999;
     align-items: center;
     justify-content: center;
+    z-index:99999;
 }
 /* 关闭按钮 */
 .close-btn {
