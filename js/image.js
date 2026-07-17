@@ -76,11 +76,6 @@ function initDragScroll(scrollBox, isHorizontal = true) {
     }
   })
 }
-
-const scrollH = document.querySelector('.scroll-h');
-const scrollV = document.querySelector('.scroll-v');
-initDragScroll(scrollH, true);
-initDragScroll(scrollV, false);
 const scrollH = document.querySelector('.scroll-h');
 const scrollV = document.querySelector('.scroll-v');
 initDragScroll(scrollH, true);
